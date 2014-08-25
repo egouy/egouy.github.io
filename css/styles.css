@@ -1,0 +1,236 @@
+@font-face {
+  font-family: 'ProximaNovaSoft-Regular';
+  src: url("../fonts/ProximaNovaSoft-Regular/ProximaNovaSoft-Regular-webfont.eot");
+  src: local("Proxima Nova"), local("ProximaNovaSoft"), url("../fonts/ProximaNovaSoft-Regular/ProximaNovaSoft-Regular-webfont.woff") format("woff"), url("../fonts/ProximaNovaSoft-Regular/ProximaNovaSoft-Regular-webfont.ttf") format("truetype"), url("../fonts/ProximaNovaSoft-Regular/ProximaNovaSoft-Regular-webfont.svgz#webfonteneA6i5M") format("svg"), url("../fonts/ProximaNovaSoft-Regular/ProximaNovaSoft-Regular-webfont.svg#webfonteneA6i5M") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ProximaNovaSoft-Bold';
+  src: url("../fonts/ProximaNovaSoft-Bold/ProximaNovaSoft-Bold-webfont.eot");
+  src: local("Proxima Nova"), local("ProximaNovaSoft"), url("../fonts/ProximaNovaSoft-Bold/ProximaNovaSoft-Bold-webfont.woff") format("woff"), url("../fonts/ProximaNovaSoft-Bold/ProximaNovaSoft-Bold-webfont.ttf") format("truetype"), url("../fonts/ProximaNovaSoft-Bold/ProximaNovaSoft-Bold-webfont.svgz#webfonteneA6i5M") format("svg"), url("../fonts/ProximaNovaSoft-Bold/ProximaNovaSoft-Bold-webfont.svg#webfonteneA6i5M") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -webkit-animation-duration: 0.8s;
+     -moz-animation-duration: 0.8s;
+       -o-animation-duration: 0.8s;
+      -ms-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  -webkit-animation-delay: .5s;
+     -moz-animation-delay: .5s;
+       -o-animation-delay: .5s;
+      -ms-animation-delay: .5s;
+          animation-delay: .5s;
+  -webkit-animation-fill-mode: both;
+     -moz-animation-fill-mode: both;
+       -o-animation-fill-mode: both;
+      -ms-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+     -moz-animation-name: fadeInDown;
+       -o-animation-name: fadeInDown;
+      -ms-animation-name: fadeInDown;
+          animation-name: fadeInDown;
+}
+
+body {
+  padding: 45px 15px;
+  margin: 0 auto;
+  color: #4f5963;
+  font: 18px/1.8 "ProximaNovaSoft-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+a {
+  color: #0d8fba;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+     -moz-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+}
+
+a:hover,
+a:active {
+  border-bottom: 1px solid #3bc492;
+  color: #323a42;
+}
+
+h1, h2, h3 {
+  margin: 0 0 6px;
+  color: #4f5963
+}
+
+h1 {
+  margin: 24px 0 12px 0;
+  font-family: "ProximaNovaSoft-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.2em;
+  font-weight: bold;
+  line-height: 30px;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: .5s;
+  -moz-animation-delay: .5s;
+  -o-animation-delay: .5s;
+  -ms-animation-delay: .5s;
+  animation-delay: .5s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+  -moz-animation-name: fadeInDown;
+  -o-animation-name: fadeInDown;
+  -ms-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+h2 {
+  color: #c1c7ce;
+  font-family: 'EB Garamond', serif;
+  font-size: .8em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 24px;
+}
+
+p {
+  width: 600px;
+  margin: 0 auto 6px;
+  line-height: 1.4em;
+  -webkit-animation-delay: .6s;
+	   -moz-animation-delay: .6s;
+	     -o-animation-delay: .6s;
+	    -ms-animation-delay: .6s;
+	        animation-delay: .6s;
+}
+
+img {
+  max-width: 100%;
+  margin: 42px 0;
+  -webkit-border-radius: 110px;
+     -moz-border-radius: 110px;
+      -ms-border-radius: 110px;
+       -o-border-radius: 110px;
+          border-radius: 110px;
+}
+
+::selection, ::-moz-selection {
+  background: #ffb7b7;
+  text-shadow: none;
+}
+
+/* Social & contact */
+
+ul {
+  overflow: hidden;
+  margin: 18px auto;
+  padding: 0;
+  -webkit-animation-delay: .7s;
+	   -moz-animation-delay: .7s;
+	     -o-animation-delay: .7s;
+	    -ms-animation-delay: .7s;
+	        animation-delay: .7s;
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+  margin-left: 25px;
+  text-align: center;
+}
+
+li:first-child {
+  margin-left: 0;
+}
+
+li a,
+li a:hover {
+  border: none;
+  font-size: 1.4em;
+}
+
+/* Media queries */
+
+@media print, screen and (max-width: 960px) {
+
+}
+
+@media print, screen and (max-width: 720px) {
+  p {
+    width: 100%;
+    font-size: 0.9em;
+  }
+}
+
+@media print, screen and (max-width: 480px) {
+}
+
+/* Animations */
+
+@-webkit-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(-8px);
+	}
+	
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+	}
+}
+
+@-moz-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-moz-transform: translateY(-8px);
+	}
+	
+	100% {
+		opacity: 1;
+		-moz-transform: translateY(0);
+	}
+}
+
+@-ms-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-ms-transform: translateY(-8px);
+	}
+	
+	100% {
+		opacity: 1;
+		-ms-transform: translateY(0);
+	}
+}
+
+@-o-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-ms-transform: translateY(-8px);
+	}
+	
+	100% {
+		opacity: 1;
+		-ms-transform: translateY(0);
+	}
+}
+
+@keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-8px);
+	}
+	
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
