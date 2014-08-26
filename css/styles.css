@@ -168,14 +168,14 @@ li a:hover {
 @media print, screen and (max-width: 720px) {
   p {
     width: 100%;
-    font-size: 0.9em;
+    font-size: 1.2em;
   }
 }
 
 @media print, screen and (max-width: 480px) {
   p {
     width: 100%;
-    font-size: 0.9em;
+    font-size: 1.2em;
   }
 }
 
