@@ -101,9 +101,13 @@ h2 {
   line-height: 24px;
 }
 
-p {
+section {
   width: 600px;
-  margin: 0 auto 6px;
+  margin: 0 auto;
+}
+
+p {
+  margin: 0 0 6px 0;
   line-height: 1.4em;
   -webkit-animation-delay: .6s;
 	   -moz-animation-delay: .6s;
@@ -166,16 +170,16 @@ li a:hover {
 }
 
 @media print, screen and (max-width: 720px) {
-  p {
+  section {
     width: 100%;
-    font-size: 1.2em;
+    font-size: 0.9em;
   }
 }
 
 @media print, screen and (max-width: 480px) {
-  p {
+  section {
     width: 100%;
-    font-size: 1.2em;
+    font-size: 0.9em;
   }
 }
 
