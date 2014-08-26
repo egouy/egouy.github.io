@@ -12,7 +12,7 @@
   font-weight: normal;
   font-style: normal; }
 
-* {
+/* * {
   -webkit-font-smoothing: antialiased;
   -webkit-animation-duration: 0.8s;
      -moz-animation-duration: 0.8s;
@@ -34,7 +34,7 @@
        -o-animation-name: fadeInDown;
       -ms-animation-name: fadeInDown;
           animation-name: fadeInDown;
-}
+} */
 
 body {
   padding: 45px 15px;
@@ -48,9 +48,9 @@ body {
 a {
   color: #0d8fba;
   text-decoration: none;
-  -webkit-transition: all 0.2s ease-in-out;
+  /* -webkit-transition: all 0.2s ease-in-out;
      -moz-transition: all 0.2s ease-in-out;
-          transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out; */
 }
 
 a:hover,
@@ -70,7 +70,7 @@ h1 {
   font-size: 2.2em;
   font-weight: bold;
   line-height: 30px;
-  -webkit-animation-duration: 1s;
+  /* -webkit-animation-duration: 1s;
   -moz-animation-duration: 1s;
   -o-animation-duration: 1s;
   -ms-animation-duration: 1s;
@@ -89,7 +89,7 @@ h1 {
   -moz-animation-name: fadeInDown;
   -o-animation-name: fadeInDown;
   -ms-animation-name: fadeInDown;
-  animation-name: fadeInDown;
+  animation-name: fadeInDown; */
 }
 
 h2 {
@@ -133,11 +133,11 @@ ul {
   overflow: hidden;
   margin: 18px auto;
   padding: 0;
-  -webkit-animation-delay: .7s;
+  /* -webkit-animation-delay: .7s;
 	   -moz-animation-delay: .7s;
 	     -o-animation-delay: .7s;
 	    -ms-animation-delay: .7s;
-	        animation-delay: .7s;
+	        animation-delay: .7s; */
 }
 
 li {
@@ -175,7 +175,7 @@ li a:hover {
 
 /* Animations */
 
-@-webkit-keyframes fadeInDown {
+/* @-webkit-keyframes fadeInDown {
 	0% {
 		opacity: 0;
 		-webkit-transform: translateY(-8px);
@@ -233,4 +233,4 @@ li a:hover {
 		opacity: 1;
 		transform: translateY(0);
 	}
-}
+} */
